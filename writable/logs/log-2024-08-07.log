@@ -1,0 +1,48 @@
+CRITICAL - 2024-08-07 07:56:17 --> CodeIgniter\Router\Exceptions\RouterException: The route for "notes/edit" cannot be found.
+[Method: GET, Route: notes]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('notes/edit')
+ 2 APPPATH\Views\notes\index.php(15): url_to('notes/edit')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-framework\\blockNote\\app\\Views\\notes\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('notes/index', [], true)
+ 6 APPPATH\Controllers\NotesController.php(12): view('notes/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NotesController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-framework\\blockNote\\public\\index.php')
+CRITICAL - 2024-08-07 08:00:50 --> CodeIgniter\Router\Exceptions\RouterException: The route for "notes/delete" cannot be found.
+[Method: GET, Route: notes]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('notes/delete')
+ 2 APPPATH\Views\notes\index.php(18): url_to('notes/delete')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-framework\\blockNote\\app\\Views\\notes\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('notes/index', [], true)
+ 6 APPPATH\Controllers\NotesController.php(12): view('notes/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NotesController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-framework\\blockNote\\public\\index.php')
+CRITICAL - 2024-08-07 08:28:24 --> CodeIgniter\Router\Exceptions\RouterException: The route for "notes.create" cannot be found.
+[Method: GET, Route: notes]
+in SYSTEMPATH\Helpers\url_helper.php on line 494.
+ 1 SYSTEMPATH\Helpers\url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('notes.create')
+ 2 APPPATH\Views\notes\index.php(9): url_to('notes.create')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-framework\\blockNote\\app\\Views\\notes\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('notes/index', [], true)
+ 6 APPPATH\Controllers\NotesController.php(12): view('notes/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NotesController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotesController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-framework\\blockNote\\public\\index.php')
